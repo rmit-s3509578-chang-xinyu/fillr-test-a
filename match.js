@@ -12,7 +12,7 @@ if(Ecom_Payment_Card_ExpDate_Day!=''){
 	    var o2 =document.getElementByClassName('Ecom_Payment_Card_ExpDate_Month');
        if(Ecom_Payment_Card_ExpDate_Year!=''){         
 	      var o3 =document.getElementByClassName('Ecom_Payment_Card_ExpDate_Year');      
-          var obj = Object.assign(o1, o2, o3);         
+          var obj = o1+"-"+ o2+"-"+o3);         
           console.log(obj);  
 }
 }
